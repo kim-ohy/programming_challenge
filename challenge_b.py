@@ -63,7 +63,7 @@ def identify_object_in_file(path):
     
     for (object, type) in new_arr:
         line = "Object: " + object + ", Type: " + type
-        write_to_file("final_output.txt", line)
+        write_to_file("final_output.txt", line + "\n")
         print(line)
 
 identify_object_in_file("output.txt")
